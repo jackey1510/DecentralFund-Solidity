@@ -8,6 +8,11 @@ The manager can create "Request" to transfer money from the campaign.
 
 The contributors can vote to approve/decline the Request, which can help prevent rigged/poorly managed campaign.
 
+## Contracts
+
+Campaign Contract: the contract enables users to interact with the campaign.
+Campaign Factory Contract: the contract which allows user to create a new campaign and deploy the Campaign Contract.
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
