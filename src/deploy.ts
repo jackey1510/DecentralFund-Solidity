@@ -13,8 +13,6 @@ if (!MNEMONIC || !WEB3_PROVIDER_URL)
   throw Error("Please add mnemonic and provider URL to .env");
 
 const provider = new HDWalletProvider({
-  // mnemonic: `erase flavor puppy gaze very pilot duck connect initial coach indoor road`,
-  // url: "https://rinkeby.infura.io/v3/b5a17ac4e2554466ad08c4f6fb6c7043",
   mnemonic: MNEMONIC,
   url: WEB3_PROVIDER_URL,
 });
